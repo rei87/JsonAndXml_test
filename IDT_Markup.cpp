@@ -9,6 +9,7 @@ static bool isLeafNode(const Markup_Node *node) {
     node->getType(nodeType);
     // TODO: Are MARKUP_TYPE_ARRAY and MARKUP_TYPE_OBJECT the ONLY type of nodes that allow to set the
     //   pChildElements list????????
+    if()// To add with error.
     return (nodeType == Markup_Type::MARKUP_TYPE_ARRAY ||
             nodeType == Markup_Type::MARKUP_TYPE_OBJECT);
 }
